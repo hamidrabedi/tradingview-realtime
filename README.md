@@ -1,8 +1,4 @@
-Here is a suggested GitHub project description for your Go application:
-
----
-
-## GoMarketWatch
+## TradingView RealTime
 
 GoMarketWatch is a real-time market data tracking application built with Go, utilizing the power of concurrent websockets and scheduled tasks. It uses the Gin framework for handling HTTP requests, and integrates `tradingview`'s API to fetch and update financial symbol data in real time.
 
@@ -37,7 +33,3 @@ To get started with GoMarketWatch:
 
 ### Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or add new features.
-
----
-
-This description provides a clear overview of the project's purpose, features, setup instructions, and usage, making it easier for potential users or contributors to get started with the application.
