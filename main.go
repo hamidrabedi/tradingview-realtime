@@ -35,7 +35,7 @@ func establishWebSocketConnection() {
 	tradingviewsocket, _ = socket.Connect(
 		handleSymbolUpdates,
 		func(err error, context string) {
-			// Handle errors, if needed
+			fmt.Printf("Something went wrong!")
 		},
 	)
 }
