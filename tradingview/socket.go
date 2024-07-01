@@ -76,6 +76,10 @@ func (s *Socket) Close() (err error) {
 
 // AddSymbol ...
 func (s *Socket) AddSymbol(symbol string) (err error) {
+	if s == nil {
+		fmt.Printf("Socket instance is nil")
+		return errors.New("Socket instance is nil")
+	}
 	err = s.sendSocketMessage(
 		getSocketMessage("quote_add_symbols", []interface{}{s.SessionId, symbol, getFlags()}),
 	)
